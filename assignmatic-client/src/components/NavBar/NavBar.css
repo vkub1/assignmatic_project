@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    width: clamp(311px, 77%, 77%);
+    align-items: center;
+    justify-content: space-between;
+    margin: 2vh auto;
+}
+
+#logo {
+    width: fit-content;
+}
+
+
+#nav {
+    display: flex !important;
+    width: 150px;
+}
