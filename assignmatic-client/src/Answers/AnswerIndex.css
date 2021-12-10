@@ -1,0 +1,54 @@
+.answer-card {
+    width: 100%;
+    margin: 10px auto;
+    background: white;
+    border: 1px solid #203A4C;;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.answer-card>p {
+    margin: auto 10px;
+    color: #203A4C;
+    text-transform: uppercase;
+    
+}
+
+.answer-cards {
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.answer-card.graded {
+    background: #203A4C;
+    
+}
+
+.answer-card.graded>p {
+    color:white
+}
+
+.answer-card:hover {
+    background: #203A4C;
+}
+
+.answer-card:hover>p {
+    color:white
+}
+
+#answer-label {
+    width: 77vw;
+    margin: 10px auto;
+    display: flex;
+    padding-left: 7%;
+}
+
+#edit-assignment {
+    display: flex;
+    justify-content: center;
+    
+}

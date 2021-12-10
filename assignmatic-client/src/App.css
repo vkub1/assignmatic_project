@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+.links {
+  text-decoration: none;
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #33323D;
+
+  margin: auto 10px;
+}
+
+p {
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+  /* or 200% */
+
+
+  color: #33323D;
+
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+h2 {
+  font-family: Ibarra Real Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 42px;
+  /* identical to box height, or 131% */
+
+  letter-spacing: -0.285714px;
+
+  color: #33323D;
+}
+
+h1 {
+  font-family: Ibarra Real Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 42px;
+  /* identical to box height, or 105% */
+
+  letter-spacing: -0.357143px;
+
+  color: #33323D;
+}
+
+
+h3 {
+  font-family: Ibarra Real Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 42px;
+  /* identical to box height, or 105% */
+
+  letter-spacing: -0.357143px;
+
+  color: #33323D;
+}
+
+#submission-title {
+  width: 73vw;
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  width: 80vw;
+  flex-direction: column;
+  margin: 10px auto;
+  align-items: center;
+}
+
+.field {
+  width: clamp(400px, 77vw, 77vw);
+  margin: 20px auto;
+  background: gainsboro;
+  border: none;
+  height: 48px;
+}
+
+.label {
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 231% */
+  display: block;
+  color: #33323D;
+}
+
+.button {
+  background: #203A4C;
+  color: white;
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: none;
+  width: 200px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 10px 10px 10px 0;
+}
+
+.button:hover {
+  color: #203A4C;
+  background: white;
+  border: 1px solid #203A4C
+}
+
+.links.welcome {
+  order: -1;
+}
+.field.textarea {
+  height: 200px;
+}
+
+.class-card {
+  width: clamp(300px, 77%, 77%);
+  height: 126px;
+  margin: 10px 10px;
+  display: flex;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 24px 0px rgba(79,114,205,0.15);
+  border-radius: 8px;
+  color: black;
+  
+}
+
+.editor-window {
+  width: 50%;
+  resize: none !important;
+  height: 340px;
+  padding: 10px;
+  background-color: #fff;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+  tab-size: 4;
+  display: flex;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px -2px rgb(0 0 0 / 20%);
+  font-family: 'Source Code Pro', monospace;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 20px;
+}
+
+.codejar-linenumbers {
+  background:darkslategray !important;
+  color: white !important;
+  mix-blend-mode: normal !important;
+}
+
+
+
+.class-cards {
+  justify-content: center;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.editor-window {
+  width: 77vw;
+}
+
+#assignment-instructions {
+  display: flex;
+
+  width: 77vw;
+  height: fit-content;
+}
+
+#assignment-instructions>div{
+  width: 50%;
+}
+
+.alert-box {
+  width: 77vw;
+  margin: 20px auto;
+}
+
+.test-case-card {
+  width: 100%;
+  background: white;
+  border: 1px solid #203A4C;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#test-case-container {
+  width: 50%;
+  flex-grow: 1;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.test-case-card {
+  margin: 0px 0 30px 0;
+}
+
+.test-case-card>p {
+  margin: auto auto;
+  color: #203A4C;
+  text-transform: uppercase;
+}
+
+section.main-image {
+  display: flex;
+  width: 77vw;
+  height: 780px;
+  background-image: url('./assets/images/photo-1517694712202-14dd9538aa97.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 2.89vh auto;
+}
+
+section.course-image {
+  display: flex;
+  width: 77vw;
+  height: 400px;
+  background-image: url('./assets/images/Free-Courses-to-learn-JavaScript.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 2.89vh auto;
+}
+
+.container {
+  width: 77vw;
+}
+
+.assignment-cards {
+  width: 30vw;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.assignment-card-cont {
+  width: inherit;
+  margin: 10px 10px;
+  background: white;
+  border: 1px solid #203A4C;;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.assignment-card-cont>p {
+  margin: auto auto;
+  color: #203A4C;
+  text-transform: uppercase;
+}
+
+.assignment-card-cont:hover {
+  background: #203A4C;
+}
+
+.assignment-card-cont:hover>p {
+  color: white;
+}
+
+#student-submission-container {
+  width: 77vw;
+  margin: 10px auto;
+}
+
+
+
+
+
+
